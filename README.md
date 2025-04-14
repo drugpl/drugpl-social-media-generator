@@ -1,3 +1,6 @@
 # Generating Event Posters
 
-`google-chrome --headless --disable-gpu --window-size=1300,700 --screenshot=output.png file:///home/rupert/development/paneq/drug-generator/poster.html`
+
+```
+google-chrome --headless --disable-gpu --hide-scrollbars --window-size=1200,700 --capture-selector=".poster" --screenshot=output.png file:///home/rupert/development/paneq/drug-generator/poster.html
+```
